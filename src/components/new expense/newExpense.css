@@ -1,0 +1,61 @@
+.new-expense {
+    background-color: #F8EDE3;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+  }
+  
+  .new-expense button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 3px solid #ffffff;
+    background-color: #615d58;
+    color: rgb(249, 243, 243);
+    border-radius: 12px;
+    margin-right: 1rem;
+  }
+  .expenses-filter {
+    color: rgb(255, 255, 255);
+    padding: 0 1rem;
+  }
+  
+  .expenses-filter__control {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0;
+  }
+  
+  .expenses-filter label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .expenses-filter select {
+    font: inherit;
+    padding: 0.5rem 3rem;
+    font-weight: bold;
+    border-radius: 6px;
+  }
+  .new-expense button:hover,
+  .new-expense button:active {
+    background-color: #D0B8A8;
+    border-color: #798777;
+  }
+  
+  .new-expense button.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+  }
+  
+  .new-expense button.alternative:hover,
+  .new-expense button.alternative:active {
+    background-color: #F8EDE3;
+  }
